@@ -1,0 +1,212 @@
+Server Time: Tue, 06 Dec 2022 10:34:01 +0000
+
+
+Execute scheduled task: Alte Sessions bereinigen (core\task\session_cleanup_task)
+... started 10:34:01. Current memory use 20.6 MB.
+... used 7 dbqueries
+... used 0.0086491107940674 seconds
+Scheduled task complete: Alte Sessions bereinigen (core\task\session_cleanup_task)
+Execute scheduled task: Neues Nutzerkennwort senden (core\task\send_new_user_passwords_task)
+... started 10:34:01. Current memory use 21.9 MB.
+... used 1 dbqueries
+... used 0.00019121170043945 seconds
+Scheduled task complete: Neues Nutzerkennwort senden (core\task\send_new_user_passwords_task)
+Execute scheduled task: Systemnachricht zu fehlgeschlagenen Anmeldeversuchen senden (core\task\send_failed_login_notifications_task)
+... started 10:34:01. Current memory use 21.9 MB.
+... used 0 dbqueries
+... used 7.2002410888672E-5 seconds
+Scheduled task complete: Systemnachricht zu fehlgeschlagenen Anmeldeversuchen senden (core\task\send_failed_login_notifications_task)
+Execute scheduled task: Legacy Cron für Plugins (core\task\legacy_plugin_cron_task)
+... started 10:34:02. Current memory use 22.0 MB.
+Running auth crons if required...
+Running enrol crons if required...
+Starting activity modules
+Finished activity modules
+Starting blocks
+Finished blocks
+Starting admin reports
+Finished admin reports
+Starting course reports
+Finished course reports
+Starting gradebook plugins
+Finished gradebook plugins
+Starting local plugins
+Processing cron function for local_campusconnect...
+... started 10:34:02. Current memory use 24.4 MB.
+done. (1 dbqueries, 0 seconds)
+Finished local plugins
+... used 6 dbqueries
+... used 0.023535966873169 seconds
+Scheduled task complete: Legacy Cron für Plugins (core\task\legacy_plugin_cron_task)
+Execute scheduled task: Hintergrundprozess für Bewertungen (core\task\grade_cron_task)
+... started 10:34:02. Current memory use 24.5 MB.
+... used 2 dbqueries
+... used 0.0031020641326904 seconds
+Scheduled task complete: Hintergrundprozess für Bewertungen (core\task\grade_cron_task)
+Execute scheduled task: Normale Abschlussdaten berechnen (core\task\completion_regular_task)
+... started 10:34:02. Current memory use 24.5 MB.
+Aggregating completions
+... used 6 dbqueries
+... used 0.0095689296722412 seconds
+Scheduled task complete: Normale Abschlussdaten berechnen (core\task\completion_regular_task)
+Execute scheduled task: Hintergrundprozess für Portfolio-Plugins (core\task\portfolio_cron_task)
+... started 10:34:02. Current memory use 25.0 MB.
+... used 0 dbqueries
+... used 7.4863433837891E-5 seconds
+Scheduled task complete: Hintergrundprozess für Portfolio-Plugins (core\task\portfolio_cron_task)
+Execute scheduled task: Hintergrundprozess für den Legacy Cron in Plagiat-Plugins (core\task\plagiarism_cron_task)
+... started 10:34:02. Current memory use 25.0 MB.
+... used 0 dbqueries
+... used 0.00010180473327637 seconds
+Scheduled task complete: Hintergrundprozess für den Legacy Cron in Plagiat-Plugins (core\task\plagiarism_cron_task)
+Execute scheduled task: Systemnachrichten zu Kalendereinträgen senden (core\task\calendar_cron_task)
+... started 10:34:02. Current memory use 25.5 MB.
+... used 1 dbqueries
+... used 0.0034282207489014 seconds
+Scheduled task complete: Systemnachrichten zu Kalendereinträgen senden (core\task\calendar_cron_task)
+Execute scheduled task: Externe Blogs synchronisieren (core\task\blog_cron_task)
+... started 10:34:02. Current memory use 25.9 MB.
+... used 2 dbqueries
+... used 0.0027568340301514 seconds
+Scheduled task complete: Externe Blogs synchronisieren (core\task\blog_cron_task)
+Execute scheduled task: Hintergrundprozess um Fragen-Vorschauen zu löschen (core\task\question_preview_cleanup_task)
+... started 10:34:02. Current memory use 26.2 MB.
+
+  Cleaning up old question previews...done.
+... used 2 dbqueries
+... used 0.010357141494751 seconds
+Scheduled task complete: Hintergrundprozess um Fragen-Vorschauen zu löschen (core\task\question_preview_cleanup_task)
+Execute scheduled task: Hintergrundprozess zum Löschen von Fragestatistik-Caches (core\task\question_stats_cleanup_task)
+... started 10:34:02. Current memory use 29.2 MB.
+
+  Cleaning up old question statistics cache records...done.
+... used 4 dbqueries
+... used 0.00096392631530762 seconds
+Scheduled task complete: Hintergrundprozess zum Löschen von Fragestatistik-Caches (core\task\question_stats_cleanup_task)
+Execute scheduled task: Hintergrundprozess für das Aufgabenmodul (mod_assign\task\cron_task)
+... started 10:34:02. Current memory use 30.1 MB.
+... used 3 dbqueries
+... used 0.018862009048462 seconds
+Scheduled task complete: Hintergrundprozess für das Aufgabenmodul (mod_assign\task\cron_task)
+Execute scheduled task: E-Mail-Versand aus Foren (mod_forum\task\cron_task)
+... started 10:34:02. Current memory use 33.4 MB.
+Removing old digest records from 7 days ago.
+Removed all old digest records.
+Fetching unmailed posts.
+  No posts found.
+... used 2 dbqueries
+... used 0.0014328956604004 seconds
+Scheduled task complete: E-Mail-Versand aus Foren (mod_forum\task\cron_task)
+Execute scheduled task: Aktualisierung überfälliger Testversuche (mod_quiz\task\update_overdue_attempts)
+... started 10:34:02. Current memory use 34.6 MB.
+  Looking for quiz overdue quiz attempts...
+  Considered 0 attempts in 0 quizzes.
+... used 1 dbqueries
+... used 0.0041170120239258 seconds
+Scheduled task complete: Aktualisierung überfälliger Testversuche (mod_quiz\task\update_overdue_attempts)
+Execute scheduled task: Testberichte Cron Job (veraltet) (mod_quiz\task\legacy_quiz_reports_cron)
+... started 10:34:02. Current memory use 34.7 MB.
+... used 0 dbqueries
+... used 0.00011301040649414 seconds
+Scheduled task complete: Testberichte Cron Job (veraltet) (mod_quiz\task\legacy_quiz_reports_cron)
+Execute scheduled task: Testzugriffsregeln Cron Job (veraltet) (mod_quiz\task\legacy_quiz_accessrules_cron)
+... started 10:34:02. Current memory use 34.7 MB.
+... used 0 dbqueries
+... used 0.00010204315185547 seconds
+Scheduled task complete: Testzugriffsregeln Cron Job (veraltet) (mod_quiz\task\legacy_quiz_accessrules_cron)
+Execute scheduled task: Hintergrundprozess für gegenseitige Beurteilung (mod_workshop\task\cron_task)
+... started 10:34:02. Current memory use 34.7 MB.
+ processing workshop subplugins ...
+... used 1 dbqueries
+... used 0.00077009201049805 seconds
+Scheduled task complete: Hintergrundprozess für gegenseitige Beurteilung (mod_workshop\task\cron_task)
+Execute scheduled task: Alte Cron-Zuteilung für gegenseitige Beurteilungen (mod_workshop\task\legacy_workshop_allocation_cron)
+... started 10:34:02. Current memory use 34.7 MB.
+... used 0 dbqueries
+... used 9.5844268798828E-5 seconds
+Scheduled task complete: Alte Cron-Zuteilung für gegenseitige Beurteilungen (mod_workshop\task\legacy_workshop_allocation_cron)
+Execute scheduled task: Eingehende E-Mail-Abholung (tool_messageinbound\task\pickup_task)
+... started 10:34:02. Current memory use 34.0 MB.
+Inbound Message not fully configured - exiting early.
+... used 0 dbqueries
+... used 0.001370906829834 seconds
+Scheduled task complete: Eingehende E-Mail-Abholung (tool_messageinbound\task\pickup_task)
+Execute scheduled task: Event-Monitor-Einträge löschen (tool_monitor\task\clean_events)
+... started 10:34:02. Current memory use 34.2 MB.
+... used 0 dbqueries
+... used 0.00030016899108887 seconds
+Scheduled task complete: Event-Monitor-Einträge löschen (tool_monitor\task\clean_events)
+Execute scheduled task: Hintergrundprozess für die geplante Zuordnung (workshopallocation_scheduled\task\cron_task)
+... started 10:34:02. Current memory use 34.2 MB.
+... no workshops awaiting scheduled allocation. ... used 1 dbqueries
+... used 0.00090694427490234 seconds
+Scheduled task complete: Hintergrundprozess für die geplante Zuordnung (workshopallocation_scheduled\task\cron_task)
+Execute scheduled task: E-Mail-Versand der Zertifikate. (mod_customcert\task\email_certificate_task)
+... started 10:34:02. Current memory use 34.3 MB.
+... used 1 dbqueries
+... used 0.00016188621520996 seconds
+Scheduled task complete: E-Mail-Versand der Zertifikate. (mod_customcert\task\email_certificate_task)
+Execute scheduled task: Hintergrundverarbeitung für Journal (mod_journal\task\cron_task)
+... started 10:34:02. Current memory use 34.5 MB.
+... used 1 dbqueries
+... used 0.00072288513183594 seconds
+Scheduled task complete: Hintergrundverarbeitung für Journal (mod_journal\task\cron_task)
+Execute scheduled task: Nutzer benachrichtigen (mod_pulse\task\notify_users)
+... started 10:34:02. Current memory use 34.5 MB.
+Fetching notificaion instance list - MOD-Pulse INIT 
+No pulse instance are added yet
+
+... used 1 dbqueries
+... used 0.0043690204620361 seconds
+Scheduled task complete: Nutzer benachrichtigen (mod_pulse\task\notify_users)
+Execute scheduled task: Pulse Aktivitätsabschluss aktualisieren (mod_pulse\task\update_completion)
+... started 10:34:02. Current memory use 34.9 MB.
+Pulse activity completion - Pulse Starting
+Fetching pulse instance list - MOD-Pulse INIT
+No pulse instance are added yet
+
+... used 2 dbqueries
+... used 0.11064791679382 seconds
+Scheduled task complete: Pulse Aktivitätsabschluss aktualisieren (mod_pulse\task\update_completion)
+Execute scheduled task: Erste Erinnerung (local_pulsepro\task\first_reminder)
+... started 10:34:02. Current memory use 46.5 MB.
+No pulse instance are added yet
+
+... used 1 dbqueries
+... used 0.002004861831665 seconds
+Scheduled task complete: Erste Erinnerung (local_pulsepro\task\first_reminder)
+Execute scheduled task: Zweite Erinnerung (local_pulsepro\task\second_reminder)
+... started 10:34:02. Current memory use 46.5 MB.
+No pulse instance are added yet
+
+... used 1 dbqueries
+... used 0.00027990341186523 seconds
+Scheduled task complete: Zweite Erinnerung (local_pulsepro\task\second_reminder)
+Execute scheduled task: Wiederkehrende Erinnerung (local_pulsepro\task\recurring_reminder)
+... started 10:34:02. Current memory use 46.5 MB.
+No pulse instance are added yet
+
+... used 1 dbqueries
+... used 0.00026893615722656 seconds
+Scheduled task complete: Wiederkehrende Erinnerung (local_pulsepro\task\recurring_reminder)
+Execute scheduled task: Zeitpunkt der Verfügbarkeit (local_pulsepro\task\availabletime)
+... started 10:34:02. Current memory use 46.5 MB.
+No pulse instance are added yet
+
+... used 1 dbqueries
+... used 0.0002589225769043 seconds
+Scheduled task complete: Zeitpunkt der Verfügbarkeit (local_pulsepro\task\availabletime)
+Execute scheduled task: Credits des Nutzers aktualisieren (local_pulsepro\task\credits)
+... started 10:34:02. Current memory use 46.5 MB.
+... used 1 dbqueries
+... used 0.00098204612731934 seconds
+Scheduled task complete: Credits des Nutzers aktualisieren (local_pulsepro\task\credits)
+Execute scheduled task: Berichtszeitpläne senden (core_reportbuilder\task\send_schedules)
+... started 10:34:02. Current memory use 46.6 MB.
+... used 1 dbqueries
+... used 0.0017449855804443 seconds
+Scheduled task complete: Berichtszeitpläne senden (core_reportbuilder\task\send_schedules)
+Ran 0 adhoc tasks found at Tue, 06 Dec 2022 10:34:01 +0000
+Cron script completed correctly
+Cron completed at 10:34:02. Memory used 46.8 MB.
+Execution took 0.673327 seconds

@@ -31,6 +31,7 @@ and then
 There you should the at least two moodle users listed.
 
 7.) Create some dummy content via
+
 ``docker exec -i -u www-data moodle-moosh-docker-moosh bash < create-content.sh``
 
 

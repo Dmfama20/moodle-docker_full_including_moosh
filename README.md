@@ -1,4 +1,4 @@
-# Moodle Docker testing environment (including moosh)
+# Moodle Docker testing environment (including traefik, cron and moosh)
 ## How to start
 1.) Download and extract your moodle code from  [moodle.org](https://download.moodle.org/releases/latest/) and place it inside the *moodle* folder.
 

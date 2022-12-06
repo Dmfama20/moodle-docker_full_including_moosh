@@ -8,7 +8,7 @@
 
 OR
 
-comment out the *labels* option included in the phpMyAdmin service and the nginx service and enter a port there instead and modify conf/nginx.conf accordingly.
+comment out the *labels* option included in the phpMyAdmin service and the nginx service. Please note, to enter a port in docker-compose file instead and modify conf/nginx.conf accordingly.
 
 4.) Run ``docker-compose up -d`` to build the necessary containers and start them.
 
@@ -17,9 +17,11 @@ comment out the *labels* option included in the phpMyAdmin service and the nginx
 OR
 
 via CLI:
+
 ``docker exec -it moodle-moosh-docker-app php admin/cli/install.php --lang=de --wwwroot=http://docker-moosh.localhost --dataroot=/var/www/moodledata --dbtype=mariadb --dbhost= moodle-moosh-docker-db  --dbname=moodle --dbuser=moodleuser --dbpass=mysqlpassword --prefix=mdl_ --fullname=moodle-moosh --shortname=moodle-moosh --adminpass=test --adminemail=admin@moodle.invalid --agree-license --non-interactive``
 
 6.) Check if moosh is running properly:
+
 ``docker exec -it -u www-data moodle-moosh-docker-moosh bash``
 
 and then
